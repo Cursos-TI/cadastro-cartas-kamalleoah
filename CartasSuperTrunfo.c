@@ -38,16 +38,16 @@ printf("Estado (escolha  uma letra de A a H): ");
 scanf("%c", &estado1);    //a função scanf é a responsável porobter entrada de dados, a parti da leitura dos dados fornecidos pelo usuário, armazenando-as nas variáeis.
 
 printf("Codigo (a letra do estado seguida de um numero de 01 a 04): "); 
-scanf("%s", &codigo1);    
+scanf("%s", &codigo1);    //os especificadores de formato são resonsáveis por definir como a informação vai aparecer para o usuario. %s imrime uma cadeia de caracteres.
 
 printf("Nome da cidade: ");
 scanf("%s", &nomeCidade1);
 
 printf("População: ");
-scanf("%d", &populacao1);
+scanf("%d", &populacao1); //%d impime um numero inteiro no formato decimal. 
 
 printf("Area: ");
-scanf("%f", &area1);
+scanf("%f", &area1);      //%f imprime um numero de ponto flutuantes no formato padrão.  
 
 printf("PIB: ");
 scanf("%f", &pib1);
