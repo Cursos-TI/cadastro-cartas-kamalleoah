@@ -10,11 +10,11 @@ int main() {
         // além das variáveis, são definidos também os tipos de dados de cada variável. 
     //Carta 1
 
-    char estado1;
-    char codigo1[4];
+    char estado1;     //char armazena caracteres como numeros inteiros.
+    char codigo1[4];  //char nome[00] armazena caracteres individuais, mis o caracter nulo.
     char nomeCidade1[50]; 
-    int populacao1; 
-    float area1; 
+    int populacao1;   //int armazenanumeros inteiros sem casas deiais. 
+    float area1;      //float armazena numeros com casas decimais.
     float pib1; 
     int pontos_turisticos1; 
 
@@ -28,17 +28,17 @@ int main() {
     float pib2; 
     int pontos_turisticos2;    
 
-  // Área para entrada de dados
-
+  // Área para entrada e saída de dados
+      //nesta parte do código, é possível formatar e manipular dados de entrada e saída.
 // Carta 1 
 
-printf("Carta 1: \n");
+printf("Carta 1: \n");    //a função printf é a usada pr exibir as informações na tela.
 
 printf("Estado (escolha  uma letra de A a H): "); 
-scanf("%c", &estado1); 
+scanf("%c", &estado1);    //a função scanf é a responsável porobter entrada de dados, a parti da leitura dos dados fornecidos pelo usuário, armazenando-as nas variáeis.
 
 printf("Codigo (a letra do estado seguida de um numero de 01 a 04): "); 
-scanf("%s", &codigo1);
+scanf("%s", &codigo1);    
 
 printf("Nome da cidade: ");
 scanf("%s", &nomeCidade1);
