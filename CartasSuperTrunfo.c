@@ -7,6 +7,7 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
         //aqui são criadas as variáveis, ou seja, vamos criar os locais onde as informações serão organizadas, com nomes claros e significativos. 
+        // além das variáveis, são definidos também os tipos de dados de cada variável. 
     //Carta 1
 
     char estado1;
